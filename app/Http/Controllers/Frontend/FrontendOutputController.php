@@ -64,39 +64,24 @@ class FrontendOutputController extends FrontendBaseController
             case 'yandex_direct':
 
                 $company_contacts['phone']['mobile'] = '8 (928) 036-10-60';
-                //$company_contacts['phone_href']['mobile'] = '89280361060';
-
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-67';
-                //$company_contacts['phone_href']['krasnodar'] = '88612139267';
-
                 $company_contacts['phone']['sochi'] = '8 (862) 277-71-43';
-                //$company_contacts['phone_href']['sochi'] = '88622777143';
 
                 break;
 
             case 'google_ads':
 
                 $company_contacts['phone']['mobile'] = '8 (928) 036-68-65';
-                //$company_contacts['phone_href']['mobile'] = '89280366865';
-
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-79';
-                //$company_contacts['phone_href']['krasnodar'] = '88612139279';
-
                 $company_contacts['phone']['sochi'] = '8 (862) 277-71-34';
-                //$company_contacts['phone_href']['sochi'] = '88622777134';
 
                 break;
 
             default:
 
                 $company_contacts['phone']['mobile'] = '8 (928) 036-04-77';
-                //$company_contacts['phone_href']['mobile'] = '89280360477';
-
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-92';
-                //$company_contacts['phone_href']['krasnodar'] = '88612139292';
-
                 $company_contacts['phone']['sochi'] = '8 (862) 300-01-84';
-                //$company_contacts['phone_href']['sochi'] = '88623000184';
 
                 break;
 
