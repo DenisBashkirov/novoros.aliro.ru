@@ -66,6 +66,7 @@ class FrontendOutputController extends FrontendBaseController
                 $company_contacts['phone']['mobile'] = '8 (928) 036-10-60';
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-67';
                 $company_contacts['phone']['sochi'] = '8 (862) 277-71-43';
+                $company_contacts['phone']['novoros'] = '8 (928) 428-33-62';
 
                 break;
 
@@ -74,6 +75,7 @@ class FrontendOutputController extends FrontendBaseController
                 $company_contacts['phone']['mobile'] = '8 (928) 036-68-65';
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-79';
                 $company_contacts['phone']['sochi'] = '8 (862) 277-71-34';
+                $company_contacts['phone']['novoros'] = '8 (928) 415-35-40';
 
                 break;
 
