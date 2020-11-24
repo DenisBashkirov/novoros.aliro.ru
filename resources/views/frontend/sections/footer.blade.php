@@ -6,12 +6,12 @@
             <p class="xs-sm:text-xl xl:text-2xl font-bold">Офисы продаж</p>
 
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
-                <p class="js-goto" data-goto="Sochi">г. Новороссийск, ул. Героев-Десантников, 2</p>
+                <p class="js-goto" data-goto="Krasnodar">г. Новороссийск, ул. Героев-Десантников, 2</p>
                 <a href="tel:{{ $company_contacts['phone']['novoros'] }}" class="no-underline">{{ $company_contacts['phone']['novoros'] }}</a>
             </div>
 
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
-                <p class="cursor-pointer color-red-100 hover-color-red-90 js-goto" data-goto="Krasnodar">г. Сочи, ул. Транспортная, 5</p>
+                <p class="cursor-pointer color-red-100 hover-color-red-90 js-goto" data-goto="Sochi">г. Сочи, ул. Транспортная, 5</p>
             </div>
 
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
