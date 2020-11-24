@@ -13,7 +13,7 @@
 
         // Создание карты
         let myMap = new ymaps.Map("ymap", {
-            center: destinations.Sochi,
+            center: destinations.Novoros,
             // Уровень масштабирования. Допустимые значения:
             // от 0 (весь мир) до 19.
             zoom: 16
@@ -31,6 +31,13 @@
 
         // Сочи
         myMap.geoObjects.add(new ymaps.Placemark(destinations.Sochi, {
+            //balloonContent: 'цвет <strong>красный</strong>',
+            //iconCaption: 'Салон окон "Алиро"'
+        }, {
+            preset: 'islands#redDotIcon'
+        }));
+
+        myMap.geoObjects.add(new ymaps.Placemark(destinations.Novoros, {
             //balloonContent: 'цвет <strong>красный</strong>',
             //iconCaption: 'Салон окон "Алиро"'
         }, {
