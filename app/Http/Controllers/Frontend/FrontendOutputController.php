@@ -84,7 +84,7 @@ class FrontendOutputController extends FrontendBaseController
                 $company_contacts['phone']['mobile'] = '8 (928) 036-04-77';
                 $company_contacts['phone']['krasnodar'] = '8 (861) 213-92-92';
                 $company_contacts['phone']['sochi'] = '8 (862) 300-01-84';
-                $company_contacts['phone']['novoros'] = '8 (861) 213-92-92';
+                $company_contacts['phone']['novoros'] = '8 (928) 036-04-77';
 
                 break;
 
