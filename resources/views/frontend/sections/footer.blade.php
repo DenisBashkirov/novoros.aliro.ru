@@ -7,7 +7,7 @@
 
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
                 <p class="js-goto" data-goto="Sochi">г. Сочи, ул. Транспортная, 5, оф. 212</p>
-                <a href="tel:{{ $company_contacts['phone']['sochi'] }}" class="no-underline">{{ $company_contacts['phone']['sochi'] }}</a>
+                <a href="tel:{{ $company_contacts['phone']['novoros'] }}" class="no-underline">{{ $company_contacts['phone']['sochi'] }}</a>
             </div>
 
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
