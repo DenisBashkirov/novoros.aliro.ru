@@ -60,6 +60,7 @@
             });
 
             let col = document.getElementsByClassName('js-goto');
+            console.log(col);
 
             if (this.classList.contains('color-red-100')) {
                 for (let i = 0, n = col.length; i < n; ++i) {
