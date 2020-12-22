@@ -23,6 +23,7 @@
     @endif
 
 @include('frontend.sources.scripts')
+@yield('page_scripts')
 
 </body>
 </html>
