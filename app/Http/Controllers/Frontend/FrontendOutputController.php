@@ -87,12 +87,12 @@ class FrontendOutputController extends FrontendBaseController
             'novoros' => [
                 'office' => [
                     'default' => '8 (928) 036-04-77',
-                    'yandex_direct' => '8 (928) 036-04-77',
+                    'yandex_direct' => '8 (928) 428-33-62',
                     'google_ads' => '8 (928) 415-35-40'
                 ],
                 'mobile' => [
                     'default' => '8 (928) 036-04-77',
-                    'yandex_direct' => '8 (928) 036-04-77',
+                    'yandex_direct' => '8 (928) 428-33-62',
                     'google_ads' => '8 (928) 415-35-40'
                 ]
             ]
