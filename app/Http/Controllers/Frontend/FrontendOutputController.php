@@ -109,7 +109,7 @@ class FrontendOutputController extends FrontendBaseController
 
         switch (session('utm_source')) {
 
-            case 'yandex_direct_krd':
+            case 'yandex_direct_novoros':
                 $company_contacts['phone']['office']['krasnodar'] = $phones['krasnodar']['office']['yandex_direct'];
                 $company_contacts['phone']['office']['sochi'] = $phones['sochi']['office']['yandex_direct'];
                 $company_contacts['phone']['office']['novoros'] = $phones['novoros']['office']['yandex_direct'];
@@ -118,7 +118,7 @@ class FrontendOutputController extends FrontendBaseController
                 $company_contacts['phone']['mobile']['novoros'] = $phones['novoros']['mobile']['yandex_direct'];
                 break;
 
-            case 'google_ads_krd':
+            case 'google_ads_novoros':
                 $company_contacts['phone']['office']['krasnodar'] = $phones['krasnodar']['office']['google_ads'];
                 $company_contacts['phone']['office']['sochi'] = $phones['sochi']['office']['google_ads'];
                 $company_contacts['phone']['office']['novoros'] = $phones['novoros']['office']['google_ads'];
