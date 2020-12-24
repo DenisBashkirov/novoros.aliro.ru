@@ -15,7 +15,7 @@
             </div>
 
             <div class="header__phone">
-                <a class="xl:text-3xl xl:ml-16 font-black no-underline" href="tel:{{ $company_contacts['phone']['novoros'] }}">{{ $company_contacts['phone']['novoros'] }}</a>
+                <a class="xl:text-3xl xl:ml-16 font-black no-underline" href="tel:{{ $company_contacts['phone']['mobile']['novoros'] }}">{{ $company_contacts['phone']['mobile']['novoros'] }}</a>
             </div>
 
             <div class="header__callback xs-sm:hidden">
