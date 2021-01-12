@@ -2,3 +2,13 @@
 
 <!-- Jivo -->
 <script src="//code.jivosite.com/widget/8m98Id2ymp" async></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125901681-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-125901681-5');
+</script>
