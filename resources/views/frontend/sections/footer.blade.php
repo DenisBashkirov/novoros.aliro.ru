@@ -6,7 +6,8 @@
             <h2 class="xs-sm:text-xl xl:text-2xl font-bold">Офисы продаж</h2>
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
                 <p>{{ $company_contacts['address']['office']['novoros'] }}</p>
-                <a href="tel:{{ $company_contacts['phone']['office']['novoros'] }}" class="no-underline">{{ $company_contacts['phone']['office']['novoros'] }}</a>
+                <!-- <a href="tel:{{ $company_contacts['phone']['office']['novoros'] }}" class="no-underline">{{ $company_contacts['phone']['office']['novoros'] }}</a> -->
+                <a href="tel:8 (861) 213-92-92" class="no-underline">8 (861) 213-92-92</a>
             </div>
             <div class="flex flex-col xs-sm:sy-1 xl:sy-2 xl:text-xl">
                 <p>{{ $company_contacts['address']['office']['krasnodar'] }}</p>
